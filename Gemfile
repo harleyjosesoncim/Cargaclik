@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby ">= 3.2.8"
+ruby ">= 3.1.4"
 
 gem "rails", "~> 6.1.0"
 gem "racc", "1.6.0"
