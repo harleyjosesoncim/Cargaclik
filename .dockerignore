@@ -1,51 +1,39 @@
-# See https://docs.docker.com/engine/reference/builder/#dockerignore-file for more about ignoring files.
-
-# Ignore git directory.
-/.git/
-/.gitignore
-
-# Ignore bundler config.
-/.bundle
-
-# Ignore all environment files.
-/.env*
-
-# Ignore all default key files.
-/config/master.key
-/config/credentials/*.key
-
-# Ignore all logfiles and tempfiles.
-/log/*
-/tmp/*
-!/log/.keep
-!/tmp/.keep
-
-# Ignore pidfiles, but keep the directory.
-/tmp/pids/*
-!/tmp/pids/.keep
-
-# Ignore storage (uploaded files in development and any SQLite databases).
-/storage/*
-!/storage/.keep
-/tmp/storage/*
-!/tmp/storage/.keep
-
-# Ignore assets.
-/node_modules/
-/app/assets/builds/*
-!/app/assets/builds/.keep
-/public/assets
-
-# Ignore CI service files.
-/.github
-
-# Ignore Kamal files.
-/config/deploy*.yml
-/.kamal
-
-# Ignore development files
-/.devcontainer
-
-# Ignore Docker-related files
-/.dockerignore
-/Dockerfile*
+log/*
+tmp/*
+*.log
+vendor/bundle
+node_modules
+.bundle
+coverage
+.byebug_history
+.env
+.env.development
+.env.test
+.env.production.local
+.rspec
+spec/
+test/
+features/
+tmp/*
+storage/*
+public/assets/*
+public/packs/*
+public/packs-test/*
+public/uploads/*
+public/system/*
+.sass-cache
+.idea/
+.vscode/
+*.iml
+*.zip
+*.tar
+*.gz
+*.rar
+*.mp4
+*.avi
+*.mkv
+*.mov
+.git
+.gitignore
+Dockerfile*
+docker-compose*
