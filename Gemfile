@@ -3,7 +3,7 @@ ruby ">= 3.1.4"
 
 gem "rails", "~> 6.1.0"
 gem "racc", "1.6.0"
-gem "sqlite3", "~> 1.4"
+gem "sqlite3", "~> 2.7"
 gem "puma", "~> 5.0"
 gem "sass-rails", ">= 6"
 gem "webpacker"
