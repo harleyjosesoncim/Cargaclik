@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby ">= 3.1.4"
+ruby "3.0.6"
 
 gem "rails", "~> 6.1.0"
 gem "racc", "1.6.0"
@@ -10,6 +10,8 @@ gem "webpacker"
 gem "uglifier", ">= 1.3.0"
 gem "turbolinks", "~> 5"
 gem "jbuilder", "~> 2.7"
+gem 'net-imap', '< 0.5.0'
+
 
 group :development do
   gem "listen", "~> 3.3"
