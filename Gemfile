@@ -10,6 +10,13 @@ gem "webpacker"
 gem "uglifier", ">= 1.3.0"
 gem "turbolinks", "~> 5"
 gem "jbuilder", "~> 2.7"
+ruby '3.0.6'
+gem 'rails', '6.1.7.7'
+gem 'net-imap', '< 0.5.0'
+gem 'net-pop', '< 0.5.0'
+gem 'net-smtp', '< 0.5.0'
+gem 'net-pop', '< 0.5.0'
+gem 'net-smtp', '< 0.5.0'
 gem 'net-imap', '< 0.5.0'
 
 
