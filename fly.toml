@@ -1,3 +1,4 @@
 app = "cargaclick"
 primary_region = "gig"
-
+[build]
+dockerfile = "./Dockerfile"
