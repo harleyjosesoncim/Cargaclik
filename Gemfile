@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 ruby ">= 3.1.4"
 
-gem "rails", "~> 6.1.0"
+gem "rails", "~> 8.0.2"
 gem "racc", "1.6.0"
 gem "sqlite3", "~> 1.4"
 gem "puma", "~> 5.0"
